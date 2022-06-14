@@ -118,7 +118,7 @@ sumbitBtn.addEventListener('click', () => {
         if(currentQuestion < quizData.length){
             loadQuiz();
         }else {
-            quiz.innerHTML = `<h2>Score: ${score}/${quizData.length}</h2>`
+            quiz.innerHTML = `<h2>Score: ${score}/${quizData.length}</h2> <button onclick="location.reload()">Start Again</button>`
         }
     }
 });
