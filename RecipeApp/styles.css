@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 0;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mobileContainer {
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 0 10px 2px #3333331A;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+header input {
+    background-color: #eee;
+    border-radius: 3px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+header button {
+    background-color: transparent;
+    color: #aaa;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: 10px;
+}
+
+.favContainer {
+    background-color: rgb(246, 210, 255);
+    padding: 1rem;
+    text-align: center;
+}
+
+.favMeals {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.favMeals li{
+
+}
+
+.favMeals li img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 79px;
+    width: 79px;
+}
+
